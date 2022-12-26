@@ -1,0 +1,17 @@
+function splitPhone(phone){
+  if (phone.length !== 11) return phone
+  var arr = phone.split('')
+
+  // 数组插入元素  arr.splice(索引位置,删除元素数量,插入元素)
+  arr.splice(3,0,'-')
+  arr.splice(8,0,'-')
+
+  return arr.join('')
+}
+
+//  将方法抛出
+module.exports = {
+  splitPhone:splitPhone
+}
+
+

@@ -1,0 +1,9 @@
+<!--pages/message/message.wxml-->
+
+<view> {{numA}} + {{numB}} = {{sum}}</view>
+<van-button type='primary' bindtap="updateNumA" data-step="{{1}}">+1</van-button>
+<van-button type='danger' bindtap="updateNumA" data-step="{{-1}}">-1</van-button>
+
+<view>························</view>
+<my-numbers></my-numbers>
+

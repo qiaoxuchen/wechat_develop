@@ -1,0 +1,8 @@
+function toLower(val) {
+  return val.toLowerCase()
+}
+// 抛出方法
+module.exports = {
+  toLower : toLower
+}
+

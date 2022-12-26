@@ -1,0 +1,7 @@
+<!--components/test4/test4.wxml-->
+<text>components/test4/test4.wxml</text>
+<view>子组件count的值：{{count}}</view>
+
+<button bindtap="addCount">+1</button>
+<view>behavior定义的姓名： {{username}}</view>
+

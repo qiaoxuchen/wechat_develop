@@ -1,0 +1,19 @@
+<!-- <text class="g-red-text">pages/home/home.wxml</text>
+<view></view>
+<my-test max='8'></my-test> -->
+
+<!-- <my-test3>
+  <view slot='s1'>这是插槽引用者</view>
+  <view slot='s2'>这是插槽引用者02</view>
+</my-test3> -->
+
+
+<!-- 通过绑定的sync事件接收参数到syncCount方法中 -->
+<my-test4 count="{{count}}" bind:sync="syncCount" class='customA' id='CA'></my-test4>
+<button bindtap="getChild">获取子组件实例对象</button>
+
+<view>count的值：{{count}}</view>
+
+
+
+

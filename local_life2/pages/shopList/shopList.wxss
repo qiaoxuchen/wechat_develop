@@ -1,0 +1,41 @@
+._shop_top_{
+  /* 换行 */
+  display: flex;
+  /* 边间距 */
+  padding: 15rpx;
+  /* 边框线 */
+  border: 1rpx solid #efefef;
+  /* 边框圆角效果 */
+  border-radius: 8rpx;
+  /* 边框分隔 */
+  margin: 15rpx;
+  /* 盒子阴影 x-y 阴影扩散15*/
+  box-shadow: 1rpx 1rpx 15rpx #ddd;
+}
+
+.thumb image{
+  width: 250rpx;
+  height: 250rpx;
+  /* 块级元素 */
+  display: block;
+  /* 右边距 */
+  margin-right: 15rpx;
+}
+
+._detail_{
+  /* 换行 */
+  display: flex;
+  /* 垂直显示 */
+  flex-direction: column;
+  /* 分散显示 */
+  justify-content: space-around;
+  font-size: 24rpx;
+}
+
+
+._title_{
+  /* 字体加粗 */
+  font-weight:bold;
+}
+
+

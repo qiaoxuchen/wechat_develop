@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/list/list",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "乔老板",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "black",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "list"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "index"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

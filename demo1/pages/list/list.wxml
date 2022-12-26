@@ -1,0 +1,10 @@
+<view wx:for="{{arrList}}" wx:key="id">
+  索引：{{index}},当前项：{{item}}
+</view>
+
+<view wx:for="{{arrList}}" wx:key="id" class="username">
+  id:{{item.id}},name:{{item.name}}
+</view>
+
+
+
